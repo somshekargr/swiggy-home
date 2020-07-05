@@ -1,0 +1,326 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+#headerBlock{
+ height: 600px;
+}
+.leftheaderBlock{
+    background: white;
+    width: 55%;
+    float: left;
+}
+.rightheaderBlock{
+    background: url("../images/swiggyright1");
+    width: 45%;
+    float: left;
+    height: 600px;
+    background-size: cover;
+  
+
+}
+.logo{
+    width: 30%;
+    float: left;
+    height: 30px;
+}
+.menu{
+    float: right;
+    width: 70;
+    text-align: center;
+}
+.menu  ul li{
+    display: inline-block;
+}
+.menu ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+    line-height: 54px;
+}
+.menu ul li a{
+    color: black;
+    padding: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menuandlogo{
+    padding: 60px;
+
+}
+.logo svg{
+    fill: #fc8019;
+    widows: 200px;
+}
+.menu ul li a:hover{
+    color: #fc8019;
+}
+.signup{
+    background: black;
+    color: white !important;
+    padding: 11px 30px !important;
+}
+#mainblock, .footerlist{
+    padding: 20px 60px;
+    text-align: left;
+}
+.headertitle {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    
+}
+.contentblockpara p{
+    font-size: 22px;
+    padding: 0px;
+    margin-top: -39px;
+    margin-bottom: 50px;
+}
+.form-control{
+   width: 100%;
+   padding: 20px;
+   box-sizing: border-box;
+
+}
+
+.form{
+    position: relative;
+
+}
+.btn{
+    position: absolute;
+    background:  #fc8019;
+    color: white;
+    padding: 10px;
+    right: 0;
+    top: 0;
+    height: 59px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.locateme{
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    color: #999;
+}
+
+.locateme:hover{
+    background: #eee;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    cursor: pointer;
+}
+.footerlist h3{
+    color: #999;
+    text-transform: uppercase;
+    font-size: 15pxs;
+}
+.footerlist ul{
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+}
+.footerlist ul li{
+    display: inline-block;
+}
+.footerlist ul li a{
+    text-decoration: none;
+}
+.footerlist ul li:nth-child(odd) a{
+    color: #000;
+
+}
+.footerlist ul li:nth-child(even) a{
+    color: #777;
+    font-weight: bold; 
+}
+figure{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*--middlesection css here--*/   
+#middlesection{
+    background: #2b1e16;
+height: 400px;
+}
+.leftarea{
+    width: 30%;
+    float: left;
+}
+.middlearea{
+    width: 30%;
+    float: left;
+}
+.righttarea{
+    width: 30%;
+    float: left;
+}
+.contentarea{
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
+.contentarea p{
+    font-size: 14px;
+}
+.contentarea img{
+    width: 105px;
+    height: 199px;
+}
+#Restaurants{
+    clear: both;
+    position: relative;
+}
+.Restaurantsleft{
+    width: 45%;
+    float: left;
+}
+.Restaurantsright{
+    width: 55%;
+    float: left;
+}
+.Restaurantsleft section{
+    padding: 110px 80px;
+}
+
+.Restaurantsleft section h1{
+    font-size: 36px;
+    font-weight: 600 !important;
+    padding: 0%;
+    width: 60%;
+    margin: 20px 0px;
+}
+.Restaurantsleft section p{
+    font-size: 18px;
+    color: #999;
+    padding: 0px 0px 40px 0px;
+    margin: 0px;
+}
+.Restaurantsleft section figure,
+.Restaurantsright section figure{
+    margin: 0px;
+    display: inline-block;
+}
+.Restaurantsleft section figure img{
+    width: 180px;
+}
+/* .Restaurantsleft section
+.Restaurantsright section img{
+width
+} */
+
+.Restaurantsright figure img{
+    width: 400px ;
+}
+
+.Restaurantsright figure{
+    float: left;
+    width: 46%;
+}
+.Restaurantsright figure:nth-child(2){
+    padding-top: 70px;
+}
+
+/*--footerblock css--*/
+#footer{
+    clear: both;
+    background: #000;
+    padding: 50px 0px 0px 75px;
+    height: 5565px;
+}
+.footerblock1, .footerblock2, .footerblock3, .footerblock4{
+    width: 25%;
+    float: left;
+    height: 360px;
+
+}
+
+#footer section article h4, div h4{
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.footerblock1 ul li a, .footerblock2 ul li a, .footerblock3 ul li a ,.footerplaces1 li a , .footerplaces2 li a  , .footerplaces3 li a , .footerplaces4 li a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+}
+.footerblock1 ul , .footerblock2 ul , .footerblock3 ul, .footerplaces1 li , .footerplaces2 li , .footerplaces3 li, .footerplaces4 li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footerblock4 figure img{
+    width: 200px;
+    height: 65px;
+    border: 1px solid #999;
+    border-radius: 11px;
+    margin-bottom: 19px;
+    margin-top: 26px;
+}
+.footerblock4 img:hover{
+width: 202px;
+height: 67px;
+
+
+}
+
+.footerblock1 li, .footerblock2 li, .footerblock3 li, .footerplaces1 li , .footerplaces2 li , .footerplaces3 li , .footerplaces4 li{ 
+    height: 37px;
+}
+.footerblock1 ul li a:hover, .footerblock2 ul li a:hover, .footerblock3 ul li a:hover , .footerplaces1 li a:hover , .footerplaces2 li a:hover  , .footerplaces3 li a:hover , .footerplaces4 li a:hover{
+    font-size: 16px;
+    
+}
+
+
+/* footerplaces */
+.footerplaces1 , .footerplaces2 , .footerplaces3 , .footerplaces4{
+    width: 25%;
+float: left;
+
+}
+ div h4{
+     padding-top: 380px !important;
+ }
+
+.footerplaces4 article{
+     height: 5020px;
+ }  
+
+.swiggy1 a img{
+    width: 142px;
+    height: 42px;
+    float: left;
+} 
+.swiggy2 {
+    float: left;
+    color: white;
+    padding: 0px 337px;
+    font-size: 20px;
+    letter-spacing: -.6px;
+}
+.swiggy3 img{
+    width: 24px;
+    height: 24px;
+
+}
+.swiggy3 a{
+    margin-left: 30px;
+}
+.swiggy3 img:hover{
+    width: 27px; 
+     height: 25px;
+ 
+}
+
+
